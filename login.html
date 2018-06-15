@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Ride My Way</title>
+   <meta name="description" content="Ride Offers">
+   <meta name="Calvin" content="Rides">
+   <link rel="stylesheet" href="style.css" type="text/css" />
+   <link rel="script" href="script.js" type="text/javascript" />
+
+</head>
+<body>
+   
+<header>
+  
+  <div class="topnav" id="MytTopnav">
+   <a href="#home" class="active">Home</a>
+   <a href="about.html">ABOUT US</a>
+
+    <a href="services.html">SERVICES</a>
+	<a href="register.html">REGISTER</a>
+	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	  </a>
+	  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+	   
+  
+  </div>
+
+</header>
+<form action="action_page.php">
+    <div class="imgcontainer">
+      <img src="images/img_avatar.png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+     
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    <p>Already have an account? <a href="register.html">Sign Up</a>.</p>
+  </form>
+   </body>
+  </html>
